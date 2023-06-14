@@ -1,4 +1,7 @@
 function initGpLibrary(data) {
+    
+    console.log("init script");
+    
     GlobalPayments.configure({
         accessToken: data["token"],
         apiVersion: "2021-03-22",
